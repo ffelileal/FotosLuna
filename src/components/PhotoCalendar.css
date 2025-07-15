@@ -1,0 +1,72 @@
+.calendar-container {
+  background: #23242b;
+  border-radius: 12px;
+  padding: 1.5em 1em;
+  margin: 2em auto 2em auto;
+  max-width: 400px;
+  box-shadow: 0 2px 16px #0003;
+}
+
+.calendar-header {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.calendar-header h3 {
+  margin: 0 0 0.2em 0;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.calendar-desc {
+  color: #b0b3c6;
+  font-size: 0.98em;
+}
+
+.limpiar-fecha {
+  margin-top: 0.7em;
+  background: #31334a;
+  color: #fff;
+  border: none;
+  padding: 0.4em 1.2em;
+  border-radius: 8px;
+  font-size: 0.98em;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.limpiar-fecha:hover {
+  background: #4b4e6d;
+}
+
+/* Personalización de react-calendar */
+.react-calendar {
+  background: transparent;
+  border: none;
+  color: #f5f6fa;
+}
+
+.react-calendar__tile {
+  background: none;
+  color: #f5f6fa;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.react-calendar__tile--now {
+  background: #31334a;
+  color: #fff;
+}
+
+.photo-day {
+  background: #4caf50 !important;
+  color: #fff !important;
+  border-radius: 50%;
+}
+
+.selected-photo-day {
+  background: #2196f3 !important;
+  color: #fff !important;
+  border-radius: 50%;
+}

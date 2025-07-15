@@ -1,0 +1,23 @@
+[
+  {
+    "url": "/FOTOS/2025/798_0602/IMG_2895.JPG",
+    "fecha": "2025-02-06",
+   "hora": "07:44",
+  "fase": "Cuarto menguante",
+  "lugar": "Córdoba, Argentina",
+  "comentario": "Captura local desde el patio.",
+  "lat": -31.4167,
+  "lng": -64.1833
+},
+ {
+  "url": "/FOTOS/2025/803_1307/IMG_3069.JPG",
+  "fecha": "2025-07-13",
+  "hora": "07:44",
+  "fase": "Luna gibosa menguante",
+  "lugar": "Córdoba, Argentina",
+  "comentario": "Captura local desde el patio.",
+  "lat": -31.4167,
+  "lng": -64.1833
+}
+
+]

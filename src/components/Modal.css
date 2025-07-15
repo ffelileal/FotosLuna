@@ -1,0 +1,142 @@
+.modal-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #181a20ee;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.modal-content {
+  background: #23242b;
+  border-radius: 14px;
+  box-shadow: 0 6px 32px #000a;
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  max-width: 95vw;
+  max-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  animation: modalPop 0.35s cubic-bezier(.4,2,.3,1);
+}
+
+@keyframes modalPop {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.modal-content img {
+  max-width: 80vw;
+  max-height: 45vh;
+  border-radius: 10px;
+  margin-bottom: 1.2em;
+  background: #181a20;
+}
+
+.modal-details {
+  color: #f5f6fa;
+  font-size: 1.08em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.comentario {
+  margin-top: 0.7em;
+  font-style: italic;
+  color: #b0b3c6;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px; right: 10px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+.modal-close:hover {
+  background: #31334a;
+}
+
+.btn-descargar {
+  display: inline-block;
+  margin-top: 1em;
+  background: #31334a;
+  color: #fff;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.btn-descargar:hover {
+  background: #4b4e6d;
+}
+
+.modal-share {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1em;
+}
+.modal-share a {
+  text-decoration: none;
+  font-size: 1.3em;
+  transition: transform 0.2s;
+}
+.modal-share a:hover {
+  transform: scale(1.2);
+}
+
+.modal-slideshow-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.modal-slideshow-controls button {
+  background: #31334a;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.modal-slideshow-controls button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.modal-slideshow-controls img {
+  max-width: 70vw;
+  max-height: 45vh;
+  border-radius: 10px;
+  background: #181a20;
+}
