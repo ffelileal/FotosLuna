@@ -212,7 +212,7 @@ function App() {
             <p>
               ¿Tienes dudas, sugerencias o quieres compartir tu experiencia lunar?
               <br />
-              Puedes escribirme a: <a href="mailto:tuemail@ejemplo.com" style={{color:"#4cafef"}}>tuemail@ejemplo.com</a>
+              Puedes escribirme a: <a href="mailto:tuemail@ejemplo.com" style={{color:"#4cafef"}}>felileal25@gmail.com</a>
             </p>
             <p>
               También puedes seguir el proyecto en Instagram: <a href="https://instagram.com/ffeli.leal" target="_blank" rel="noopener noreferrer" style={{color:"#4cafef"}}>@tuusuario</a>
